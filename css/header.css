@@ -1,4 +1,4 @@
- header {
+header {
     background-color: #575656;
     padding: 25px;
     display: flex;
@@ -11,12 +11,21 @@
     font-weight: 200;
     cursor: pointer;
  }
- header h1,
- a {
-    color: #95fc41ec;
+ header nav a
+ {
+   margin-right: 1.3em;
+    font-size: 1.5em;
+ }
+ header nav {
+   display: flex;
+   align-items: center;
+ }
+ header h1 ,a
+ {
+   color: #1cdd25;
     transition: 0.2s ease-in-out;
  }
 
  header h1:hover,a:hover {
-    color: #fff ;
+    color: #245c2a ;
  }
